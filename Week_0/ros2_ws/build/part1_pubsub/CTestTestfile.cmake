@@ -4,3 +4,5 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
+subdirs("part1_pubsub__py")
+subdirs("part1_pubsub__rs")

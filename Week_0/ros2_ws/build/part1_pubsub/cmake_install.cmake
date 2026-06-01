@@ -71,7 +71,331 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/basic_velocity_control.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/stop_me.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/publisher.py"
+    "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/subscriber.py"
+    "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/custom_msg_publisher.py"
+    "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/scripts/custom_msg_subscriber.py"
     )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/part1_pubsub")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_c/part1_pubsub/" REGEX "/[^/]*\\.h$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/environment" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_environment_hooks/library_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_generator_c.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_c.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_typesupport_fastrtps_c/part1_pubsub/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so"
+         OLD_RPATH "/opt/ros/humble/lib:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_cpp/part1_pubsub/" REGEX "/[^/]*\\.hpp$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_typesupport_fastrtps_cpp/part1_pubsub/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_typesupport_introspection_c/part1_pubsub/" REGEX "/[^/]*\\.h$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_introspection_c.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_c.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_c.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/part1_pubsub/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_typesupport_introspection_cpp/part1_pubsub/" REGEX "/[^/]*\\.hpp$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/libpart1_pubsub__rosidl_typesupport_cpp.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_typesupport_cpp.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_python/part1_pubsub/part1_pubsub.egg-info/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(
+        COMMAND
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub"
+      )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/libpart1_pubsub__rosidl_generator_py.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so"
+         OLD_RPATH "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpart1_pubsub__rosidl_generator_py.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_index/share/ament_index/resource_index/rust_packages/part1_pubsub")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub" TYPE DIRECTORY FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_generator_rs/part1_pubsub/rust")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/msg" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_adapter/part1_pubsub/msg/Example.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/msg" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/msg/Example.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,6 +447,202 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake"
+         "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/Export/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport-noconfig.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_cmake/rosidl_cmake-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub/cmake" TYPE FILE FILES
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_core/part1_pubsubConfig.cmake"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/ament_cmake_core/part1_pubsubConfig-version.cmake"
@@ -131,6 +651,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/part1_pubsub" TYPE FILE FILES "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub/package.xml")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/part1_pubsub__py/cmake_install.cmake")
+  include("/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/part1_pubsub__rs/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -31,7 +31,7 @@ class SimplePublisher(Node):
         ros_time = self.get_clock().now().seconds_nanoseconds()
 
         topic_msg = String()
-        topic_msg.data = f"The ROS time is {ros_time[0]} (seconds)."
+        topic_msg.data = f"im straight af"
         self.my_publisher.publish(topic_msg)
         self.get_logger().info(f"Publishing: '{topic_msg.data}'")
 

@@ -24,7 +24,14 @@ install(PROGRAMS
   scripts/basic_velocity_control.py
   scripts/stop_me.py
   scripts/publisher.py
+  scripts/subscriber.py
+  scripts/custom_msg_publisher.py  # ADD THIS 
+  scripts/custom_msg_subscriber.py # AND THIS
   DESTINATION lib/${PROJECT_NAME}
+)
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Example.msg" 
 )
 
 ament_package()
