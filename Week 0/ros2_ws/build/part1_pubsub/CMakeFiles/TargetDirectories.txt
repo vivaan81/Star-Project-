@@ -1,0 +1,11 @@
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/part1_pubsub_uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/ament_cmake_python_copy_part1_pubsub_modules.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/ament_cmake_python_build_part1_pubsub_modules_egg.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/test.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/edit_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/rebuild_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/list_install_components.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/install.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/install/local.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub/CMakeFiles/install/strip.dir

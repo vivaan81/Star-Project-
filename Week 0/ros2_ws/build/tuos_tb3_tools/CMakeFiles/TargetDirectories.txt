@@ -1,0 +1,10 @@
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/tuos_tb3_tools_uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/cpp_executable.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/test.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/edit_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/rebuild_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/list_install_components.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/install.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/install/local.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools/CMakeFiles/install/strip.dir

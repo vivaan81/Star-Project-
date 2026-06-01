@@ -1,0 +1,9 @@
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/tuos_simulations_uninstall.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/test.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/edit_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/rebuild_cache.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/list_install_components.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/install.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/install/local.dir
+/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations/CMakeFiles/install/strip.dir
