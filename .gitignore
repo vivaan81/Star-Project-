@@ -1,0 +1,6 @@
+Week_0/ros2_ws/build/
+Week_0/ros2_ws/install/
+Week_0/ros2_ws/log/
+__pycache__/
+*.pyc
+.vscode/

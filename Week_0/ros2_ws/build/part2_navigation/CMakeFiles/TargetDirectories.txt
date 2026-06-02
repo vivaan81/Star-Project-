@@ -1,9 +1,0 @@
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/uninstall.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/part2_navigation_uninstall.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/test.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/edit_cache.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/rebuild_cache.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/list_install_components.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/install.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/install/local.dir
-/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation/CMakeFiles/install/strip.dir
