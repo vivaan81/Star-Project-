@@ -1,0 +1,177 @@
+[0.028s] Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub -- -j12 -l12
+[0.111s] [  3%] Built target part1_pubsub__rs
+[0.115s] [  6%] Built target part1_pubsub__cpp
+[0.115s] [ 15%] Built target part1_pubsub__rosidl_generator_c
+[0.116s] [ 15%] Built target ament_cmake_python_copy_part1_pubsub_modules
+[0.118s] [ 15%] Built target ament_cmake_python_copy_part1_pubsub
+[0.125s] [ 25%] Built target part1_pubsub__rosidl_typesupport_fastrtps_cpp
+[0.125s] [ 34%] Built target part1_pubsub__rosidl_typesupport_cpp
+[0.125s] [ 43%] Built target part1_pubsub__rosidl_typesupport_introspection_cpp
+[0.131s] [ 53%] Built target part1_pubsub__rosidl_typesupport_fastrtps_c
+[0.132s] [ 62%] Built target part1_pubsub__rosidl_typesupport_introspection_c
+[0.134s] [ 71%] Built target part1_pubsub__rosidl_typesupport_c
+[0.157s] [ 71%] Built target part1_pubsub
+[0.177s] [ 75%] Built target part1_pubsub__py
+[0.198s] [ 81%] Built target part1_pubsub__rosidl_generator_py
+[0.224s] [ 93%] Built target part1_pubsub__rosidl_typesupport_introspection_c__pyext
+[0.224s] [ 93%] Built target part1_pubsub__rosidl_typesupport_c__pyext
+[0.227s] [100%] Built target part1_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[0.293s] running egg_info
+[0.302s] writing part1_pubsub.egg-info/PKG-INFO
+[0.303s] writing dependency_links to part1_pubsub.egg-info/dependency_links.txt
+[0.303s] writing top-level names to part1_pubsub.egg-info/top_level.txt
+[0.342s] reading manifest file 'part1_pubsub.egg-info/SOURCES.txt'
+[0.343s] writing manifest file 'part1_pubsub.egg-info/SOURCES.txt'
+[0.370s] [100%] Built target ament_cmake_python_build_part1_pubsub_egg
+[0.378s] running egg_info
+[0.398s] writing part1_pubsub_modules.egg-info/PKG-INFO
+[0.399s] writing dependency_links to part1_pubsub_modules.egg-info/dependency_links.txt
+[0.399s] writing top-level names to part1_pubsub_modules.egg-info/top_level.txt
+[0.452s] reading manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[0.453s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[0.486s] [100%] Built target ament_cmake_python_build_part1_pubsub_modules_egg
+[0.495s] Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub -- -j12 -l12
+[0.496s] Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub
+[0.506s] -- Install configuration: ""
+[0.506s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.sh
+[0.506s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.dsv
+[0.506s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info
+[0.506s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[0.506s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/top_level.txt
+[0.506s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.506s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.507s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules
+[0.507s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py
+[0.507s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py
+[0.531s] Listing '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules'...
+[0.534s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/basic_velocity_control.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/stop_me.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/publisher.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/subscriber.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/custom_msg_publisher.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/part1_pubsub/custom_msg_subscriber.py
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/rosidl_interfaces/part1_pubsub
+[0.535s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/example.h
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/rosidl_generator_c__visibility_control.h
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__type_support.h
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__functions.h
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__struct.h
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__functions.c
+[0.536s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/library_path.sh
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/library_path.dsv
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_generator_c.so
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.537s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__rosidl_typesupport_fastrtps_c.h
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_c.so
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/example.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__builder.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__type_support.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__struct.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__traits.hpp
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.538s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/dds_fastrtps
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__rosidl_typesupport_introspection_c.h
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__type_support.c
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_introspection_c.so
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_c.so
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub
+[0.539s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__type_support.cpp
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/include/part1_pubsub/part1_pubsub/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_introspection_cpp.so
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_typesupport_cpp.so
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info
+[0.540s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info/PKG-INFO
+[0.540s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info/top_level.txt
+[0.540s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.540s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/_part1_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.540s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/msg
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/msg/_example_s.c
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/msg/_example.py
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/msg/__init__.py
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/libpart1_pubsub__rosidl_generator_py.so
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/__init__.py
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/_part1_pubsub_s.ep.rosidl_typesupport_c.c
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/_part1_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.541s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.564s] Listing '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub'...
+[0.564s] Listing '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/msg'...
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub/part1_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/libpart1_pubsub__rosidl_generator_py.so
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/rust_packages/part1_pubsub
+[0.568s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/build.rs
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/Cargo.toml
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/src
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/src/msg
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/src/msg/rmw.rs
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/src/lib.rs
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/rust/src/msg.rs
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/msg/Example.idl
+[0.569s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/msg/Example.msg
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/package_run_dependencies/part1_pubsub
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/parent_prefix_path/part1_pubsub
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.sh
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.sh
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.dsv
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.bash
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.sh
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.zsh
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.dsv
+[0.570s] -- Installing: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/packages/part1_pubsub
+[0.570s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_cppExport.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[0.572s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.572s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cExport-noconfig.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsub__rosidl_typesupport_cppExport-noconfig.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/export_part1_pubsub__rosidl_generator_pyExport-noconfig.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/rosidl_cmake-extras.cmake
+[0.573s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig-version.cmake
+[0.574s] -- Up-to-date: /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.xml
+[0.574s] Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub

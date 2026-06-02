@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation/scripts/stop_me.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation/scripts/odom_subscriber.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation/scripts/move_circle.py"
+    "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation/scripts/move_square.py"
     )
 endif()
 
