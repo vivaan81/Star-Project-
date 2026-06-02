@@ -1,0 +1,613 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75040bb45210>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75040bc56cb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75040bc56cb0>>)
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/part1_pubsub) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/part1_pubsub' with type 'ros.ament_cmake' and name 'part1_pubsub'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/part2_navigation) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/part2_navigation' with type 'ros.ament_cmake' and name 'part2_navigation'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/com2009_simulations) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/com2009_simulations' with type 'ros.ament_cmake' and name 'com2009_simulations'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_examples) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/tuos_examples' with type 'ros.ament_cmake' and name 'tuos_examples'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_interfaces) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/tuos_interfaces' with type 'ros.ament_cmake' and name 'tuos_interfaces'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_ros) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/tuos_ros' with type 'ros.ament_cmake' and name 'tuos_ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_simulations) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/tuos_simulations' with type 'ros.ament_cmake' and name 'tuos_simulations'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/tuos_ros/tuos_tb3_tools) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tuos_ros/tuos_tb3_tools' with type 'ros.ament_cmake' and name 'tuos_tb3_tools'
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'part1_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'part1_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'part2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'part2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_examples', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'tuos_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_tb3_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_tb3_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_tb3_tools', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'com2009_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'com2009_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/com2009_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'tuos_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'tuos_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros', 'merge_install': False, 'path': '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_ros', 'symlink_install': False, 'test_result_base': None}
+[0.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_simulations' with build type 'ament_cmake'
+[0.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_simulations'
+[0.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_examples' with build type 'ament_cmake'
+[0.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_examples'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_interfaces' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_interfaces'
+[0.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_tb3_tools' with build type 'ament_cmake'
+[0.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_tb3_tools'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub' with build type 'ament_cmake'
+[0.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part1_pubsub'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part2_navigation'
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations -- -j12 -l12
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples -- -j12 -l12
+[0.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces -- -j12 -l12
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools -- -j12 -l12
+[0.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub -- -j12 -l12
+[0.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation -- -j12 -l12
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations -- -j12 -l12
+[0.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation -- -j12 -l12
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation
+[0.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part2_navigation)
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation' for CMake module files
+[0.283s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation' for CMake config files
+[0.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('part2_navigation', 'cmake_prefix_path')
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.ps1'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.dsv'
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part2_navigation
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.sh'
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib'
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/bin'
+[0.291s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib/pkgconfig/part2_navigation.pc'
+[0.292s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib/python3.10/site-packages'
+[0.292s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/bin'
+[0.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.ps1'
+[0.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.dsv'
+[0.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.sh'
+[0.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.bash'
+[0.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.zsh'
+[0.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/colcon-core/packages/part2_navigation)
+[0.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part2_navigation)
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation' for CMake module files
+[0.300s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation' for CMake config files
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('part2_navigation', 'cmake_prefix_path')
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/hook/cmake_prefix_path.sh'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/bin'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib/pkgconfig/part2_navigation.pc'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/lib/python3.10/site-packages'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/bin'
+[0.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.bash'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/part2_navigation/package.zsh'
+[0.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation/share/colcon-core/packages/part2_navigation)
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools -- -j12 -l12
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools
+[0.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_simulations)
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_simulations
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations' for CMake module files
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations' for CMake config files
+[0.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_simulations', 'cmake_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.ps1'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.sh'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/bin'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/lib/pkgconfig/tuos_simulations.pc'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/lib/python3.10/site-packages'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/bin'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.bash'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.zsh'
+[0.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/colcon-core/packages/tuos_simulations)
+[0.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_simulations)
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations' for CMake module files
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations' for CMake config files
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_simulations', 'cmake_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/hook/cmake_prefix_path.sh'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/bin'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/lib/pkgconfig/tuos_simulations.pc'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/lib/python3.10/site-packages'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/bin'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.bash'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.zsh'
+[0.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations/share/colcon-core/packages/tuos_simulations)
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/com2009_simulations' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/com2009_simulations'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_tb3_tools)
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools' for CMake module files
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_tb3_tools
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools' for CMake config files
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_tb3_tools', 'cmake_prefix_path')
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.sh'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/bin'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib/pkgconfig/tuos_tb3_tools.pc'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib/python3.10/site-packages'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/bin'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.sh'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.bash'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.zsh'
+[0.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/colcon-core/packages/tuos_tb3_tools)
+[0.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_tb3_tools)
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools' for CMake module files
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools' for CMake config files
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_tb3_tools', 'cmake_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/hook/cmake_prefix_path.sh'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/bin'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib/pkgconfig/tuos_tb3_tools.pc'
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/lib/python3.10/site-packages'
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/bin'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.bash'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.zsh'
+[0.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools/share/colcon-core/packages/tuos_tb3_tools)
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations -- -j12 -l12
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations -- -j12 -l12
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations
+[0.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com2009_simulations)
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations' for CMake module files
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/com2009_simulations
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations' for CMake config files
+[0.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('com2009_simulations', 'cmake_prefix_path')
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/bin'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/lib/pkgconfig/com2009_simulations.pc'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/lib/python3.10/site-packages'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/bin'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.bash'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.zsh'
+[0.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/colcon-core/packages/com2009_simulations)
+[0.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com2009_simulations)
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations' for CMake module files
+[0.409s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations' for CMake config files
+[0.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('com2009_simulations', 'cmake_prefix_path')
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.ps1'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.dsv'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/hook/cmake_prefix_path.sh'
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/bin'
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/lib/pkgconfig/com2009_simulations.pc'
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/lib/python3.10/site-packages'
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/bin'
+[0.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.sh'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.bash'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.zsh'
+[0.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations/share/colcon-core/packages/com2009_simulations)
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces -- -j12 -l12
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub -- -j12 -l12
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub
+[0.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_interfaces)
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces' for CMake module files
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_interfaces
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces' for CMake config files
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'cmake_prefix_path')
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.sh'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib'
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'ld_library_path_lib')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.sh'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/bin'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib/pkgconfig/tuos_interfaces.pc'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib/python3.10/site-packages'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/bin'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.sh'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.bash'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.zsh'
+[0.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/colcon-core/packages/tuos_interfaces)
+[0.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_interfaces)
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces' for CMake module files
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces' for CMake config files
+[0.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'cmake_prefix_path')
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/cmake_prefix_path.sh'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib'
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_interfaces', 'ld_library_path_lib')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/hook/ld_library_path_lib.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib/pkgconfig/tuos_interfaces.pc'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib/python3.10/site-packages'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/bin'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.sh'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.bash'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/tuos_interfaces/package.zsh'
+[0.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/share/colcon-core/packages/tuos_interfaces)
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples -- -j12 -l12
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples
+[0.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part1_pubsub)
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/part1_pubsub
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub' for CMake config files
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'cmake_prefix_path')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib'
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'ld_library_path_lib')
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.sh'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/bin'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/pkgconfig/part1_pubsub.pc'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.bash'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.zsh'
+[0.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/colcon-core/packages/part1_pubsub)
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part1_pubsub)
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub' for CMake module files
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub' for CMake config files
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'cmake_prefix_path')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/cmake_prefix_path.sh'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib'
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('part1_pubsub', 'ld_library_path_lib')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/hook/ld_library_path_lib.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/pkgconfig/part1_pubsub.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib/python3.10/site-packages'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/bin'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.sh'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.bash'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.zsh'
+[0.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/share/colcon-core/packages/part1_pubsub)
+[0.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_examples)
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_examples
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples' for CMake module files
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples' for CMake config files
+[0.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_examples', 'cmake_prefix_path')
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.sh'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/bin'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib/pkgconfig/tuos_examples.pc'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib/python3.10/site-packages'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/bin'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.sh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.bash'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.zsh'
+[0.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/colcon-core/packages/tuos_examples)
+[0.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_examples)
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples' for CMake config files
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_examples', 'cmake_prefix_path')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/hook/cmake_prefix_path.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib/pkgconfig/tuos_examples.pc'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/lib/python3.10/site-packages'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.bash'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/tuos_examples/package.zsh'
+[0.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples/share/colcon-core/packages/tuos_examples)
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_ros' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/tuos_ros/tuos_ros'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros -- -j12 -l12
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros' returned '0': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros -- -j12 -l12
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_ros)
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros' for CMake module files
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros' returned '0': CMAKE_PREFIX_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/com2009_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_tb3_tools:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_simulations:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_examples:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part2_navigation:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_interfaces/lib:/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/build/tuos_ros
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros' for CMake config files
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_ros', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/bin'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/lib/pkgconfig/tuos_ros.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/lib/python3.10/site-packages'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/bin'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.bash'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.zsh'
+[0.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/colcon-core/packages/tuos_ros)
+[0.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuos_ros)
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros' for CMake module files
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuos_ros', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/lib/pkgconfig/tuos_ros.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.bash'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/tuos_ros/package.zsh'
+[0.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/tuos_ros/share/colcon-core/packages/tuos_ros)
+[0.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.705s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.711s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.718s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/local_setup.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/_local_setup_util_ps1.py'
+[0.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/setup.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/local_setup.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/_local_setup_util_sh.py'
+[0.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/setup.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/local_setup.bash'
+[0.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/setup.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/local_setup.zsh'
+[0.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/install/setup.zsh'
