@@ -21,6 +21,8 @@ install(PROGRAMS
   scripts/basic_velocity_control.py
   scripts/stop_me.py
   scripts/odom_subscriber.py
+  scripts/move_circle.py
+  scripts/move_square.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
