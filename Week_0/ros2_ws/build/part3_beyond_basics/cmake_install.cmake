@@ -71,6 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part3_beyond_basics/scripts/basic_velocity_control.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part3_beyond_basics/scripts/stop_me.py"
     "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part3_beyond_basics/scripts/param_circle.py"
+    "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part3_beyond_basics/scripts/lidar_subscriber.py"
     )
 endif()
 

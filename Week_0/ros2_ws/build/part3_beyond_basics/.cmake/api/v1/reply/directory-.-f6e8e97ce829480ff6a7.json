@@ -101,13 +101,13 @@
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 29,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 9,
 				"file" : 3,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -347,7 +347,8 @@
 			[
 				"scripts/basic_velocity_control.py",
 				"scripts/stop_me.py",
-				"scripts/param_circle.py"
+				"scripts/param_circle.py",
+				"scripts/lidar_subscriber.py"
 			],
 			"type" : "file"
 		},
