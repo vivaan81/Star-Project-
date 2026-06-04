@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(part4_services)
+project(part5_actions)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -23,14 +23,8 @@ ament_python_install_package(${PROJECT_NAME}_modules)
 install(PROGRAMS
   scripts/basic_velocity_control.py
   scripts/stop_me.py
-  scripts/my_number_game.py
-  scripts/number_game_client.py
-  scripts/map_saver_client.py
+  scripts/camera_sweep_action_client.py
   DESTINATION lib/${PROJECT_NAME}
-)
-find_package(rosidl_default_generators REQUIRED)
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/MyNumberGame.srv" 
 )
 
 ament_package()

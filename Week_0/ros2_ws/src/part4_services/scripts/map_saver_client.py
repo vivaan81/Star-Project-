@@ -3,23 +3,22 @@
 import rclpy
 from rclpy.node import Node
 
-from part4_services.srv import MyNumberGame
+from nav2_msgs.srv import SaveMap
 
 class NumberGameClient(Node):
 
     def __init__(self):
-        super().__init__('number_game_client')
+        super().__init__('map_trySave')
 
         self.client = self.create_client(
-            srv_type=MyNumberGame, 
-            srv_name='guess_the_number'
+            srv_type=SaveMap, 
+            srv_name='/map_saver/save_map'
         ) 
 
         self.declare_parameters(
             namespace='',
             parameters=[
-                ('guess', 0),
-                ('cheat', False)
+                ('MapName', 'default'),
             ]
         ) 
 
@@ -30,23 +29,18 @@ class NumberGameClient(Node):
 
     def send_request(self): 
         guess_input = self.get_parameter(
-            'guess' 
-        ).get_parameter_value().integer_value 
-        cheat_input = self.get_parameter(
-            'cheat'
-        ).get_parameter_value().bool_value 
+            'MapName' 
+        ).get_parameter_value().string_value 
 
         self.get_logger().info(
             f"Sending the request:\n"
-            f" - guess: {guess_input}\n"
-            f" - cheat: {cheat_input}\n"
+            f" - map name is: {guess_input}\n"
             f"   Awaiting response..."
         ) 
 
-        request = MyNumberGame.Request() 
-        request.guess = guess_input
-        request.cheat = cheat_input
-
+        request = SaveMap.Request() 
+        request.map_url = "/home/vivaan/Documents/star_project_submissions/Week_0/ros2_ws/src/part4_services/scripts/"+guess_input
+        
         return self.client.call_async(request) 
 
 def main():
@@ -59,9 +53,9 @@ def main():
 
     client.get_logger().info(
         f"The server responded with:\n"
-        f" - {'You guessed correctly! :)' if response.success else 'Incorrect guess :('}\n"
-        f" - Number of attempts so far: {response.guesses}\n"
-        f" - A hint: '{response.hint}'."
+        f"{response.result}"
+        f"if true then ur map name has been set by YOU else default"
+        
     ) 
 
     client.destroy_node()
