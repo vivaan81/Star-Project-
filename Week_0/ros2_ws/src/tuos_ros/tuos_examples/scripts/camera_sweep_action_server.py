@@ -68,6 +68,7 @@ class CameraSweepActionServer(Node):
         )
 
         self.shutdown = False
+        self.current_camera_image = None   # <-- COPY PASTE THIS LINE HERE
 
     def odom_callback(self, odom_msg):
         _, _, yaw = quaternion_to_euler(
@@ -182,10 +183,11 @@ class CameraSweepActionServer(Node):
 
                 # save the most recently captured image:
                 self.base_image_path.mkdir(parents=True, exist_ok=True)
-                cv2.imwrite(
-                    str(self.base_image_path.joinpath(f"img{img_num:03.0f}.jpg")),
-                    self.current_camera_image
-                )
+                if self.current_camera_image is not None:
+                    cv2.imwrite(
+                        str(self.base_image_path.joinpath(f"img{img_num:03.0f}.jpg")),
+                        self.current_camera_image
+                    )
                 
         for i in range(5):
             self.vel_pub.publish(Twist())

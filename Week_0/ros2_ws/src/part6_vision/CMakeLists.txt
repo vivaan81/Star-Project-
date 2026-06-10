@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(part5_actions)
+project(part6_vision)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -23,8 +23,7 @@ ament_python_install_package(${PROJECT_NAME}_modules)
 install(PROGRAMS
   scripts/basic_velocity_control.py
   scripts/stop_me.py
-  scripts/camera_sweep_action_client.py
-  scripts/cancel_camera_sweep.py
+  scripts/object_detection.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient 
+from rclpy.signals import SignalHandlerOptions
 
 from tuos_interfaces.action import CameraSweep 
 
@@ -23,6 +24,9 @@ class CameraSweepActionClient(Node):
                 ('goal_angle', 50)
             ]
         ) 
+        self.goal_succeeded = False
+        self.goal_cancelled = False
+        self.stop = False
 
     def send_goal(self): 
         images = self.get_parameter(
@@ -55,6 +59,7 @@ class CameraSweepActionClient(Node):
 
         self.get_result_future = goal_handle.get_result_async()
         self.get_result_future.add_done_callback(self.get_result_callback)  
+        self.goal_handle = goal_handle
 
     def get_result_callback(self, future):
         result = future.result().result
@@ -63,6 +68,7 @@ class CameraSweepActionClient(Node):
             f"Result (Image Paths):\n  "
             + "\n  ".join(result.image_paths)
         )
+        self.goal_succeeded = True
         rclpy.shutdown() 
 
     def feedback_callback(self, feedback_msg):
@@ -73,13 +79,34 @@ class CameraSweepActionClient(Node):
             f"\nFEEDBACK:\n"
             f"  - Current angular position = {fdbk_current_angle:.1f} degrees.\n"
             f"  - Image(s) captured so far = {fdbk_current_image}."
-        )    
+        )  
+        if self.stop:
+            future = self.goal_handle.cancel_goal_async()
+            future.add_done_callback(self.cancel_goal)  
+
+    def cancel_goal(self, future):
+        cancel_response = future.result()
+        if len(cancel_response.goals_canceling) > 0:
+            self.get_logger().info('Goal successfully canceled')
+            self.goal_cancelled = True
+        else:
+            self.get_logger().info('Goal failed to cancel')
 
 def main(args=None): 
-    rclpy.init(args=args)
+    rclpy.init(
+    args=args,
+    signal_handler_options=SignalHandlerOptions.NO
+    )
     action_client = CameraSweepActionClient()
     action_client.send_goal()
-    rclpy.spin(action_client)
+    while not action_client.goal_succeeded:
+        try:
+            rclpy.spin_once(action_client)
+            if action_client.goal_cancelled:
+                break
+        except KeyboardInterrupt:
+            print("Ctrl+C")
+            action_client.stop = True
 
 if __name__ == '__main__':
     main()
