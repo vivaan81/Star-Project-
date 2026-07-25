@@ -1,0 +1,2 @@
+For non holonomic bike the pure Pursuit controller is a good choice as it is specifically made for such vehicles upon looking into the configuration files in the packages. I was able to locate the YAML file which was titled pure pursuit(rosmaster_x3_nav2_regulated_pure_pursuit_controller).
+
